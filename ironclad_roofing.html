@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<!-- CUSTOMIZE: Update per client -->
+<title>Ironclad Roofing | Residential & Commercial Roofing</title>
+<meta name="description" content="Ironclad Roofing delivers premium residential and commercial roofing. Storm damage experts. Licensed, insured, and backed by a lifetime workmanship warranty. Get a free inspection today."/>
+<meta name="robots" content="index,follow"/>
+<link rel="canonical" href="https://ironcladroofing.com/"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Ironclad Roofing | Built to Last"/>
+<meta property="og:description" content="Premium roofing. Storm damage experts. Free inspections. Licensed & insured."/>
+<meta property="og:url" content="https://ironcladroofing.com/"/>
+<meta property="og:image" content="https://ironcladroofing.com/og-image.jpg"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Ironclad Roofing | Built to Last"/>
+<meta name="twitter:description" content="Premium roofing. Storm damage experts. Free inspections."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&family=Barlow+Condensed:wght@700;900&display=swap" rel="stylesheet"/>
+<!-- JSON-LD: RoofingContractor -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"RoofingContractor","name":"Ironclad Roofing","url":"https://ironcladroofing.com","telephone":"+15550001234","priceRange":"$$","description":"Premium residential and commercial roofing. Storm damage specialists. Licensed, insured, and backed by a lifetime workmanship warranty.","address":{"@type":"PostalAddress","addressCountry":"US"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"284"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"14:00"}]}</script>
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I know if my roof needs to be replaced or just repaired?","acceptedAnswer":{"@type":"Answer","text":"We inspect for shingle age, granule loss, flashing failures, decking damage, and interior leaks. Most roofs over 15 years old showing multiple issues are better candidates for replacement than repeated repairs."}},{"@type":"Question","name":"Does my insurance cover storm damage?","acceptedAnswer":{"@type":"Answer","text":"Most homeowner policies cover wind and hail damage. We work directly with insurance adjusters and help you navigate the claims process from inspection to final payout."}},{"@type":"Question","name":"How long does a full roof replacement take?","acceptedAnswer":{"@type":"Answer","text":"Most residential replacements are completed in one to two days. We handle permitting, tear-off, installation, and cleanup."}},{"@type":"Question","name":"What warranty do you offer?","acceptedAnswer":{"@type":"Answer","text":"We back every installation with a lifetime workmanship warranty plus the manufacturer material warranty — typically 30 to 50 years depending on the shingle line selected."}}]}</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#111418;
+  --bg2:#161b22;
+  --bg3:#1c2330;
+  --steel:#2A6496;
+  --steel-light:#3a7ab0;
+  --steel-dim:rgba(42,100,150,0.15);
+  --steel-border:rgba(42,100,150,0.35);
+  --white:#F4F6F9;
+  --gray:#8A95A3;
+  --gray-light:#B8C2CC;
+  --border:rgba(255,255,255,0.07);
+  --font:'Barlow',sans-serif;
+  --font-d:'Barlow Condensed',sans-serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:var(--font);line-height:1.6;overflow-x:hidden}
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:999;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;background:rgba(17,20,24,0.85);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.logo{font-family:var(--font-d);font-size:22px;font-weight:900;letter-spacing:1px;color:var(--white);text-decoration:none;cursor:pointer}
+.logo span{color:var(--steel-light)}
+.nav-links{display:flex;gap:28px;list-style:none}
+.nav-links a{color:var(--gray-light);text-decoration:none;font-size:14px;font-weight:500;transition:color .2s;cursor:pointer}
+.nav-links a:hover{color:var(--white)}
+.nav-cta{background:var(--steel);color:var(--white);padding:9px 20px;border-radius:5px;font-weight:700;font-size:14px;text-decoration:none;transition:background .2s;cursor:pointer;border:none}
+.nav-cta:hover{background:var(--steel-light)}
+/* ── PAGE SYSTEM ── */
+.page{display:none;min-height:100vh;padding-top:68px}
+.page.active{display:block}
+/* ── HERO ── */
+#hero{min-height:calc(100vh - 68px);display:flex;align-items:center;padding:80px 6% 60px;position:relative;overflow:hidden;background:linear-gradient(135deg,#0d1117 0%,#111820 50%,#0f1a24 100%)}
+.hero-lines{position:absolute;inset:0;pointer-events:none;background-image:repeating-linear-gradient(0deg,transparent,transparent 59px,rgba(42,100,150,0.06) 60px),repeating-linear-gradient(90deg,transparent,transparent 59px,rgba(42,100,150,0.06) 60px)}
+.hero-glow{position:absolute;top:-20%;right:-10%;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(42,100,150,0.12) 0%,transparent 70%);pointer-events:none}
+.hero-content{position:relative;z-index:2;max-width:680px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;background:var(--steel-dim);border:1px solid var(--steel-border);border-radius:4px;padding:6px 14px;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--steel-light);margin-bottom:28px}
+.eyebrow-dot{width:6px;height:6px;border-radius:50%;background:var(--steel-light);animation:blink 2s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+h1{font-family:var(--font-d);font-size:clamp(52px,9vw,96px);font-weight:900;line-height:.92;letter-spacing:-1px;text-transform:uppercase;margin-bottom:24px}
+h1 em{font-style:normal;color:var(--steel-light);display:block}
+.hero-sub{font-size:clamp(16px,2vw,19px);color:var(--gray-light);max-width:500px;margin-bottom:36px;line-height:1.7;font-weight:400}
+.btn-row{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{background:var(--steel);color:var(--white);padding:15px 30px;border-radius:5px;font-weight:700;font-size:16px;text-decoration:none;border:none;cursor:pointer;transition:all .2s;display:inline-flex;align-items:center;gap:8px}
+.btn-primary:hover{background:var(--steel-light);transform:translateY(-2px)}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.2);color:var(--white);padding:15px 30px;border-radius:5px;font-weight:600;font-size:16px;cursor:pointer;transition:all .2s;display:inline-flex;align-items:center;gap:8px}
+.btn-ghost:hover{border-color:rgba(255,255,255,0.4);transform:translateY(-2px)}
+.trust-strip{display:flex;gap:20px;flex-wrap:wrap;margin-top:44px}
+.trust-pill{display:flex;align-items:center;gap:7px;font-size:13px;font-weight:500;color:var(--gray)}
+.trust-pill svg{color:var(--steel-light);flex-shrink:0}
+/* ── STATS ── */
+#stats{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:44px 6%}
+.stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;max-width:800px;margin:0 auto;text-align:center}
+.stat-n{font-family:var(--font-d);font-size:clamp(44px,6vw,68px);font-weight:900;color:var(--steel-light);line-height:1;letter-spacing:-1px}
+.stat-l{font-size:13px;color:var(--gray);font-weight:500;margin-top:4px;letter-spacing:.5px;text-transform:uppercase}
+/* ── SECTIONS ── */
+section{padding:90px 6%}
+.sec-label{font-size:11px;font-weight:700;letter-spacing:3px;color:var(--steel-light);text-transform:uppercase;margin-bottom:10px}
+h2{font-family:var(--font-d);font-size:clamp(36px,5vw,60px);font-weight:900;text-transform:uppercase;line-height:.95;letter-spacing:-.5px;margin-bottom:14px}
+.sec-sub{color:var(--gray);font-size:17px;max-width:540px;line-height:1.7;margin-bottom:50px}
+/* ── SERVICES ── */
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:2px;background:var(--border)}
+.svc-card{background:var(--bg2);padding:36px;transition:background .25s;position:relative;overflow:hidden}
+.svc-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--steel);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.svc-card:hover{background:var(--bg3)}
+.svc-card:hover::after{transform:scaleX(1)}
+.svc-icon{width:44px;height:44px;margin-bottom:20px;display:flex;align-items:center;justify-content:center}
+.svc-card h3{font-size:18px;font-weight:700;margin-bottom:10px}
+.svc-card p{color:var(--gray);font-size:14px;line-height:1.6}
+.svc-link{display:inline-flex;align-items:center;gap:6px;color:var(--steel-light);font-size:13px;font-weight:600;text-decoration:none;margin-top:16px;transition:gap .2s;cursor:pointer}
+.svc-link:hover{gap:10px}
+/* ── WHY ── */
+#why-sec{background:var(--bg2)}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.why-items{display:flex;flex-direction:column;gap:32px}
+.why-item{display:flex;gap:20px;align-items:flex-start}
+.why-num{font-family:var(--font-d);font-size:52px;font-weight:900;line-height:1;color:rgba(42,100,150,0.25);flex-shrink:0;width:52px}
+.why-item h3{font-size:16px;font-weight:700;margin-bottom:6px}
+.why-item p{color:var(--gray);font-size:14px;line-height:1.6}
+.rating-box{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:44px;text-align:center}
+.big-stars{font-size:70px;font-weight:900;font-family:var(--font-d);color:var(--steel-light);line-height:1}
+.star-row{display:flex;justify-content:center;gap:4px;margin:10px 0}
+.star-row svg{color:#F4B942}
+.rating-note{color:var(--gray);font-size:14px}
+.cert-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:24px}
+.cert{background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:4px;padding:6px 12px;font-size:12px;font-weight:600;color:var(--gray-light);letter-spacing:.5px}
+/* ── REVIEWS ── */
+.reviews-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}
+.review-card{background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:28px;transition:transform .25s;position:relative}
+.review-card:hover{transform:translateY(-3px)}
+.r-stars{display:flex;gap:3px;margin-bottom:14px}
+.r-stars svg{color:#F4B942}
+blockquote{color:var(--gray-light);font-size:15px;line-height:1.7;font-style:italic;margin-bottom:20px;border:none;padding:0}
+.reviewer{display:flex;align-items:center;gap:12px}
+.r-avatar{width:38px;height:38px;border-radius:50%;background:var(--steel-dim);border:1px solid var(--steel-border);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px;color:var(--steel-light)}
+.r-name{font-weight:600;font-size:14px}
+.r-loc{color:var(--gray);font-size:13px}
+/* ── FAQ ── */
+.faq-list{max-width:700px;display:flex;flex-direction:column;gap:2px}
+.faq-item{background:var(--bg2);border:1px solid var(--border)}
+.faq-q{width:100%;background:none;border:none;color:var(--white);padding:20px 24px;text-align:left;font-size:15px;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;font-family:var(--font);transition:background .2s}
+.faq-q:hover{background:var(--bg3)}
+.faq-icon{flex-shrink:0;width:20px;height:20px;transition:transform .3s;color:var(--steel-light)}
+.faq-q.open .faq-icon{transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease}
+.faq-a.open{max-height:200px}
+.faq-a-inner{padding:0 24px 20px;color:var(--gray);font-size:14px;line-height:1.7}
+/* ── CTA BAND ── */
+.cta-band{background:linear-gradient(90deg,var(--bg3),var(--bg2));border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:80px 6%;text-align:center}
+.cta-band h2{margin-bottom:14px}
+.cta-band p{color:var(--gray);font-size:18px;max-width:480px;margin:0 auto 36px}
+/* ── SERVICES PAGE ── */
+.svc-hero{padding:80px 6% 60px;background:var(--bg2);border-bottom:1px solid var(--border)}
+.svc-full{padding:70px 6%}
+.svc-full-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start;margin-bottom:70px;padding-bottom:70px;border-bottom:1px solid var(--border)}
+.svc-full-grid:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.svc-full-grid.reverse{direction:rtl}
+.svc-full-grid.reverse>*{direction:ltr}
+.svc-visual{background:var(--bg3);border:1px solid var(--border);border-radius:6px;height:260px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;color:var(--gray)}
+.svc-visual svg{color:var(--steel-light)}
+.svc-detail h3{font-family:var(--font-d);font-size:38px;font-weight:900;text-transform:uppercase;margin-bottom:14px;line-height:1}
+.svc-detail p{color:var(--gray);font-size:15px;line-height:1.7;margin-bottom:18px}
+.svc-bullets{list-style:none;display:flex;flex-direction:column;gap:8px;margin-bottom:24px}
+.svc-bullets li{display:flex;align-items:flex-start;gap:10px;font-size:14px;color:var(--gray-light)}
+.svc-bullets li svg{color:var(--steel-light);flex-shrink:0;margin-top:3px}
+/* ── HOW IT WORKS PAGE ── */
+.hiw-hero{padding:80px 6% 60px;background:var(--bg2);border-bottom:1px solid var(--border)}
+.hiw-intro{font-size:17px;color:var(--gray);max-width:600px;line-height:1.7;margin-top:16px}
+/* Pipeline flow */
+.pipeline{padding:70px 6%;background:var(--bg)}
+.pipeline-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:0;position:relative;margin-top:50px}
+.pipeline-step{text-align:center;padding:0 12px;position:relative}
+.pipeline-step:not(:last-child)::after{content:'';position:absolute;top:28px;right:-4px;width:8px;height:8px;border-top:2px solid var(--steel-border);border-right:2px solid var(--steel-border);transform:rotate(45deg)}
+.step-circle{width:56px;height:56px;border-radius:50%;background:var(--steel-dim);border:2px solid var(--steel-border);display:flex;align-items:center;justify-content:center;margin:0 auto 16px;position:relative}
+.step-circle.active-step{background:var(--steel);border-color:var(--steel)}
+.step-n{font-family:var(--font-d);font-size:13px;font-weight:900;color:var(--steel-light);letter-spacing:1px}
+.pipeline-step h4{font-size:13px;font-weight:700;margin-bottom:6px;letter-spacing:.3px}
+.pipeline-step p{font-size:12px;color:var(--gray);line-height:1.5}
+.pipeline-connector{position:absolute;top:28px;left:calc(10% + 28px);right:calc(10% + 28px);height:2px;background:linear-gradient(90deg,var(--steel-border),var(--steel-border));z-index:0}
+/* Live demo widget */
+.demo-section{padding:0 6% 80px;background:var(--bg)}
+.demo-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;max-width:1000px}
+.demo-form-box{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:36px}
+.demo-form-box h3{font-family:var(--font-d);font-size:26px;font-weight:900;text-transform:uppercase;margin-bottom:6px}
+.demo-form-box p{color:var(--gray);font-size:14px;margin-bottom:28px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.form-field{display:flex;flex-direction:column;gap:5px}
+.form-field.full{grid-column:span 2}
+label{font-size:12px;font-weight:600;color:var(--gray-light);letter-spacing:.5px;text-transform:uppercase}
+input,select,textarea{background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:5px;color:var(--white);padding:11px 14px;font-size:14px;font-family:var(--font);transition:border-color .2s}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--steel-light)}
+select option{background:var(--bg2);color:var(--white)}
+textarea{min-height:80px;resize:vertical}
+.submit-btn{width:100%;padding:14px;background:var(--steel);color:var(--white);border:none;border-radius:5px;font-size:15px;font-weight:700;cursor:pointer;transition:background .2s;font-family:var(--font)}
+.submit-btn:hover{background:var(--steel-light)}
+/* Phone mockup */
+.phone-box{position:sticky;top:88px}
+.phone-frame{width:240px;margin:0 auto;background:#0d1117;border-radius:36px;border:2px solid rgba(255,255,255,0.12);padding:14px;box-shadow:0 0 40px rgba(0,0,0,0.6)}
+.phone-notch{width:70px;height:18px;background:#0a0a0a;border-radius:20px;margin:0 auto 12px}
+.phone-screen{background:#1a1a2e;border-radius:24px;min-height:420px;padding:14px;overflow:hidden}
+.phone-status{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;padding:0 4px}
+.phone-time{font-size:12px;font-weight:700;color:var(--white)}
+.phone-icons{font-size:10px;color:var(--white)}
+.sms-header{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:14px}
+.sms-avatar{width:32px;height:32px;border-radius:50%;background:var(--steel);display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0}
+.sms-contact{font-size:12px;font-weight:700}
+.sms-sub{font-size:10px;color:var(--gray)}
+.sms-messages{display:flex;flex-direction:column;gap:10px}
+.sms-msg{max-width:80%;padding:9px 12px;border-radius:14px;font-size:12px;line-height:1.4}
+.sms-in{background:var(--steel);border-bottom-left-radius:4px}
+.sms-out{background:rgba(255,255,255,0.1);border-bottom-right-radius:4px;align-self:flex-end;color:var(--gray-light)}
+.sms-time{font-size:10px;color:var(--gray);text-align:center;margin:4px 0}
+.sms-typing{display:none;align-items:center;gap:4px;padding:9px 12px;background:var(--steel);border-radius:14px;border-bottom-left-radius:4px;width:50px}
+.sms-typing span{width:5px;height:5px;border-radius:50%;background:rgba(255,255,255,0.5);animation:dot 1.2s infinite}
+.sms-typing span:nth-child(2){animation-delay:.2s}
+.sms-typing span:nth-child(3){animation-delay:.4s}
+@keyframes dot{0%,60%,100%{transform:translateY(0);opacity:.5}30%{transform:translateY(-4px);opacity:1}}
+.demo-label{text-align:center;font-size:12px;color:var(--gray);margin-top:12px}
+/* automation timeline */
+.auto-timeline{padding:70px 6%;background:var(--bg2);border-top:1px solid var(--border)}
+.timeline-items{display:flex;flex-direction:column;gap:0;max-width:700px;margin-top:40px}
+.tl-item{display:flex;gap:24px;align-items:flex-start}
+.tl-left{display:flex;flex-direction:column;align-items:center;gap:0;flex-shrink:0;width:56px}
+.tl-circle{width:44px;height:44px;border-radius:50%;background:var(--steel-dim);border:2px solid var(--steel-border);display:flex;align-items:center;justify-content:center;flex-shrink:0;z-index:1}
+.tl-circle.fired{background:var(--steel);border-color:var(--steel)}
+.tl-line{width:2px;flex:1;min-height:40px;background:var(--border)}
+.tl-right{padding-bottom:40px}
+.tl-time{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--steel-light);margin-bottom:4px}
+.tl-right h4{font-size:16px;font-weight:700;margin-bottom:6px}
+.tl-right p{font-size:14px;color:var(--gray);line-height:1.6}
+/* ── CONTACT PAGE ── */
+.contact-hero{padding:80px 6% 60px;background:var(--bg2);border-bottom:1px solid var(--border)}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding:70px 6%;align-items:start}
+.contact-info h3{font-family:var(--font-d);font-size:32px;font-weight:900;text-transform:uppercase;margin-bottom:16px}
+.contact-info p{color:var(--gray);font-size:15px;line-height:1.7;margin-bottom:32px}
+.contact-items{display:flex;flex-direction:column;gap:20px}
+.contact-item{display:flex;gap:14px;align-items:flex-start}
+.c-icon{width:40px;height:40px;border-radius:5px;background:var(--steel-dim);border:1px solid var(--steel-border);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.c-label{font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--gray);margin-bottom:2px}
+.c-val{font-size:15px;font-weight:600;color:var(--white)}
+.contact-form-box{background:var(--bg2);border:1px solid var(--border);border-radius:8px;padding:36px}
+.contact-form-box h3{font-family:var(--font-d);font-size:28px;font-weight:900;text-transform:uppercase;margin-bottom:6px}
+.contact-form-box p{color:var(--gray);font-size:14px;margin-bottom:28px}
+/* ── FOOTER ── */
+footer{background:var(--bg2);border-top:1px solid var(--border);padding:60px 6% 28px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}
+.footer-brand p{color:var(--gray);font-size:14px;line-height:1.7;margin:12px 0 20px;max-width:260px}
+.footer-certs{display:flex;gap:6px;flex-wrap:wrap}
+.fc{background:rgba(255,255,255,0.04);border:1px solid var(--border);border-radius:3px;padding:5px 9px;font-size:11px;font-weight:700;color:var(--gray);letter-spacing:.5px}
+.footer-col h4{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gray);margin-bottom:16px}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.footer-col a{color:var(--gray);text-decoration:none;font-size:14px;transition:color .2s;cursor:pointer}
+.footer-col a:hover{color:var(--steel-light)}
+.footer-bottom{border-top:1px solid var(--border);padding-top:22px;display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--gray)}
+.built-by a{color:var(--steel-light);font-weight:600;text-decoration:none}
+/* mobile sticky */
+.mob-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:998;background:var(--bg2);border-top:1px solid var(--border);padding:10px 16px;gap:10px}
+.mob-cta a{flex:1;text-align:center;padding:12px;border-radius:5px;font-weight:700;font-size:14px;text-decoration:none;cursor:pointer;border:none}
+.mob-call{background:var(--steel);color:var(--white)}
+.mob-quote{background:rgba(255,255,255,0.07);border:1px solid var(--border);color:var(--white)}
+/* reveal */
+.rev{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.rev.vis{opacity:1;transform:none}
+/* responsive */
+@media(max-width:860px){.why-grid,.svc-full-grid,.svc-full-grid.reverse,.demo-wrap,.contact-grid{grid-template-columns:1fr;direction:ltr}.pipeline-steps{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}.stats-row{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:580px){.nav-links,.nav-cta{display:none}.mob-cta{display:flex}body{padding-bottom:64px}.btn-row{flex-direction:column}.pipeline-steps{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- ── SEASONAL BANNER — uncomment to activate ──
+<div id="promo" style="background:var(--steel);text-align:center;padding:9px 20px;font-size:13px;font-weight:600;position:relative;z-index:1000">
+  Spring Storm Season: Free Hail Inspections — Book Before May 31
+  <button onclick="this.parentElement.remove()" style="background:none;border:none;color:white;position:absolute;right:16px;top:50%;transform:translateY(-50%);cursor:pointer;font-size:18px">x</button>
+</div>
+-->
+
+<!-- ── NAV ── -->
+<nav role="navigation" aria-label="Main navigation">
+  <span class="logo" onclick="showPage('home')">Iron<span>clad</span> Roofing</span>
+  <ul class="nav-links" role="list">
+    <li><a onclick="showPage('home')">Home</a></li>
+    <li><a onclick="showPage('services')">Services</a></li>
+    <li><a onclick="showPage('hiw')">How It Works</a></li>
+    <li><a onclick="showPage('contact')">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="showPage('contact')">Free Inspection</button>
+</nav>
+
+<!-- ════════════════════════════════════════════
+     PAGE: HOME
+════════════════════════════════════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-lines" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-content">
+      <div class="eyebrow"><span class="eyebrow-dot"></span>Licensed &amp; Insured Roofing Contractor</div>
+      <!-- CUSTOMIZE: Update headline -->
+      <h1>Built to<br/><em>Last.</em></h1>
+      <!-- CUSTOMIZE: Update subheadline -->
+      <p class="hero-sub">Premium residential and commercial roofing backed by a lifetime workmanship warranty. When it matters most — storm damage, full replacements, or a leak you can't ignore — we show up and we do the job right.</p>
+      <div class="btn-row">
+        <!-- CUSTOMIZE: Update phone -->
+        <button class="btn-primary" onclick="showPage('contact')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.13 1 .37 1.97.72 2.91a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.94.35 1.91.59 2.91.72A2 2 0 0122 16.92z"/></svg>
+          Get a Free Inspection
+        </button>
+        <button class="btn-ghost" onclick="showPage('services')">
+          View Our Services
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+      <div class="trust-strip" role="list" aria-label="Trust indicators">
+        <div class="trust-pill" role="listitem"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Lifetime Warranty</div>
+        <div class="trust-pill" role="listitem"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Storm Damage Experts</div>
+        <div class="trust-pill" role="listitem"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Insurance Claims Handled</div>
+        <div class="trust-pill" role="listitem"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Free Inspections</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div id="stats" role="region" aria-label="Company statistics">
+    <div class="stats-row">
+      <div class="rev"><div class="stat-n" data-target="19" data-suffix="+">0+</div><div class="stat-l">Years in Business</div></div>
+      <div class="rev"><div class="stat-n" data-target="3200" data-suffix="+">0+</div><div class="stat-l">Roofs Installed</div></div>
+      <div class="rev"><div class="stat-n" data-target="4.9" data-suffix="★" data-dec="1">0★</div><div class="stat-l">Google Rating</div></div>
+      <div class="rev"><div class="stat-n" data-target="100" data-suffix="%" >0%</div><div class="stat-l">Workmanship Warranty</div></div>
+    </div>
+  </div>
+
+  <!-- SERVICES PREVIEW -->
+  <section aria-labelledby="svc-h">
+    <div class="sec-label">What We Do</div>
+    <h2 id="svc-h">Every Roofing Need.<br/>One Crew.</h2>
+    <p class="sec-sub rev">From emergency storm repairs to full commercial installations — we handle it all with the same standard: do it right, back it up.</p>
+    <div class="svc-grid">
+      <article class="svc-card rev">
+        <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg></div>
+        <h3>Residential Replacement</h3>
+        <p>Full tear-off and installation in one to two days. We carry every major shingle brand and handle permitting start to finish.</p>
+        <span class="svc-link" onclick="showPage('services')">See Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </article>
+      <article class="svc-card rev">
+        <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+        <h3>Storm Damage & Insurance</h3>
+        <p>We inspect, document, and work directly with your adjuster. Most homeowners pay nothing out of pocket after a storm.</p>
+        <span class="svc-link" onclick="showPage('services')">See Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </article>
+      <article class="svc-card rev">
+        <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg></div>
+        <h3>Commercial Roofing</h3>
+        <p>Flat roof systems, TPO, EPDM, and metal panel for commercial properties. Minimal disruption, maximum durability.</p>
+        <span class="svc-link" onclick="showPage('services')">See Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </article>
+      <article class="svc-card rev">
+        <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg></div>
+        <h3>Roof Inspections</h3>
+        <p>Comprehensive inspection with photo documentation. Pre-listing, post-storm, or peace of mind — always free.</p>
+        <span class="svc-link" onclick="showPage('services')">See Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </article>
+      <article class="svc-card rev">
+        <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+        <h3>Gutters & Protection</h3>
+        <p>Seamless gutter installation, guards, and downspout systems. Protects your foundation and extends roof life.</p>
+        <span class="svc-link" onclick="showPage('services')">See Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </article>
+      <article class="svc-card rev">
+        <div class="svc-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+        <h3>Emergency Repairs</h3>
+        <p>Active leak or damage that can't wait? We have crews available for emergency call-outs and temporary weatherproofing.</p>
+        <span class="svc-link" onclick="showPage('services')">See Details <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </article>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section id="why-sec" aria-labelledby="why-h">
+    <div class="sec-label">Why Ironclad</div>
+    <div class="why-grid">
+      <div>
+        <h2 id="why-h">Built on<br/>Reputation.</h2>
+        <p class="sec-sub" style="margin-bottom:0">There's no shortage of roofing crews out there. Here's why homeowners call us back and refer their neighbors.</p>
+        <div class="why-items" style="margin-top:36px">
+          <div class="why-item rev">
+            <div class="why-num" aria-hidden="true">01</div>
+            <div><h3>We Handle Your Insurance Claim</h3><p>Most clients don't pay a dime. We document the damage, communicate with your adjuster, and guide you through the full claims process.</p></div>
+          </div>
+          <div class="why-item rev">
+            <div class="why-num" aria-hidden="true">02</div>
+            <div><h3>Lifetime Workmanship Warranty</h3><p>We back every install with a lifetime warranty on our labor — on top of the manufacturer's material warranty. If something fails, we fix it. No arguments.</p></div>
+          </div>
+          <div class="why-item rev">
+            <div class="why-num" aria-hidden="true">03</div>
+            <div><h3>Transparent Pricing</h3><p>You'll have a written quote before any work starts. No add-ons discovered mid-project, no invoice surprises.</p></div>
+          </div>
+          <div class="why-item rev">
+            <div class="why-num" aria-hidden="true">04</div>
+            <div><h3>One to Two Day Installs</h3><p>We respect your time and your home. Most full residential replacements are completed in a single day. We clean up like we were never there.</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="rating-box rev" aria-label="Customer rating">
+        <div class="big-stars">4.9</div>
+        <div class="star-row" aria-label="5 stars">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="rating-note">Based on 284 Google Reviews</div>
+        <div class="cert-row" role="list" aria-label="Certifications">
+          <div class="cert" role="listitem">Licensed</div>
+          <div class="cert" role="listitem">Insured</div>
+          <div class="cert" role="listitem">GAF Certified</div>
+          <div class="cert" role="listitem">Owens Corning</div>
+          <div class="cert" role="listitem">BBB A+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section aria-labelledby="rev-h">
+    <div class="sec-label">Customer Reviews</div>
+    <h2 id="rev-h">What Homeowners Say.</h2>
+    <div class="reviews-grid">
+      <article class="review-card rev" itemscope itemtype="https://schema.org/Review">
+        <div class="r-stars" aria-label="5 out of 5 stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <blockquote itemprop="reviewBody">"Hail took out half my roof on a Thursday. I had a new roof by Saturday. They handled my insurance company better than I could have — I ended up paying less than my deductible."</blockquote>
+        <div class="reviewer"><div class="r-avatar" aria-hidden="true">DM</div><div><div class="r-name" itemprop="author">Dan M.</div><div class="r-loc">Homeowner</div></div></div>
+      </article>
+      <article class="review-card rev" itemscope itemtype="https://schema.org/Review">
+        <div class="r-stars" aria-label="5 out of 5 stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <blockquote itemprop="reviewBody">"Three other roofers gave me quotes. Ironclad was the only one who walked me through everything, showed me photos of the actual damage, and explained exactly what they were going to do. That's who gets my business."</blockquote>
+        <div class="reviewer"><div class="r-avatar" aria-hidden="true">LR</div><div><div class="r-name" itemprop="author">Lisa R.</div><div class="r-loc">Homeowner</div></div></div>
+      </article>
+      <article class="review-card rev" itemscope itemtype="https://schema.org/Review">
+        <div class="r-stars" aria-label="5 out of 5 stars">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <blockquote itemprop="reviewBody">"We used Ironclad for our commercial property — four buildings, 90,000 sq ft. On budget, on schedule, no headaches. We've already referred them to two other property managers."</blockquote>
+        <div class="reviewer"><div class="r-avatar" aria-hidden="true">TC</div><div><div class="r-name" itemprop="author">Tom C.</div><div class="r-loc">Property Manager</div></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section aria-labelledby="faq-h" style="background:var(--bg2)">
+    <div class="sec-label">FAQ</div>
+    <h2 id="faq-h">Common Questions.</h2>
+    <div class="faq-list" role="list">
+      <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">How do I know if my roof needs replacement or just a repair?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-a"><div class="faq-a-inner">We inspect for shingle age, granule loss, flashing failures, decking damage, and interior leaks. Most roofs over 15 years old showing multiple issues are better candidates for replacement than repeated repairs. We'll tell you the truth either way — we don't push replacements when a repair is the right call.</div></div></div>
+      <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">Does homeowner's insurance cover storm damage?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-a"><div class="faq-a-inner">Most policies cover wind and hail damage. We work directly with insurance adjusters and help you navigate the claims process from inspection through final payout. Most clients end up paying only their deductible — or less.</div></div></div>
+      <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">How long does a full roof replacement take?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-a"><div class="faq-a-inner">Most residential replacements are completed in one to two days. We handle permitting, tear-off, installation, and full cleanup. Larger homes or complex rooflines may take an additional day.</div></div></div>
+      <div class="faq-item" role="listitem"><button class="faq-q" aria-expanded="false" onclick="toggleFaq(this)">What warranty do you offer?<svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-a"><div class="faq-a-inner">Every installation is backed by our lifetime workmanship warranty plus the manufacturer's material warranty — typically 30 to 50 years depending on the shingle line. If it fails due to our work, we fix it at no charge.</div></div></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta-band" role="region" aria-label="Call to action">
+    <div class="sec-label" style="text-align:center">Get Started</div>
+    <h2>Don't Wait on Your Roof.</h2>
+    <p>A free inspection takes 30 minutes and could save you thousands. No pressure, no obligation.</p>
+    <div class="btn-row" style="justify-content:center">
+      <button class="btn-primary" onclick="showPage('contact')">Schedule a Free Inspection</button>
+      <button class="btn-ghost" onclick="showPage('hiw')">See How It Works</button>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer role="contentinfo">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo">Iron<span>clad</span> Roofing</span>
+        <!-- CUSTOMIZE: Update tagline -->
+        <p>Premium residential and commercial roofing. Licensed, insured, and backed by a lifetime workmanship warranty. We do the job right or we don't do it at all.</p>
+        <div class="footer-certs"><span class="fc">Licensed</span><span class="fc">Insured</span><span class="fc">GAF Cert.</span><span class="fc">BBB A+</span></div>
+      </div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a onclick="showPage('services')">Residential Roofing</a></li><li><a onclick="showPage('services')">Storm Damage</a></li><li><a onclick="showPage('services')">Commercial Roofing</a></li><li><a onclick="showPage('services')">Inspections</a></li><li><a onclick="showPage('services')">Emergency Repairs</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a onclick="showPage('home')">Home</a></li><li><a onclick="showPage('hiw')">How It Works</a></li><li><a onclick="showPage('contact')">Contact</a></li></ul></div>
+      <div class="footer-col">
+        <!-- CUSTOMIZE: Update contact info -->
+        <h4>Contact</h4><ul>
+          <li><a href="tel:5550001234">(555) 000-1234</a></li>
+          <li><a href="mailto:info@ironcladroofing.com">info@ironcladroofing.com</a></li>
+          <li><span style="color:var(--gray);font-size:14px">Serving Your Area</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Ironclad Roofing — All rights reserved. &nbsp;<a href="#" style="color:var(--gray)">Privacy Policy</a>&nbsp;&nbsp;<a href="#" style="color:var(--gray)">Sitemap</a></span>
+      <!-- CUSTOMIZE: Update agency credit -->
+      <span class="built-by">Built by <a href="https://ironsight-digital.com" target="_blank" rel="noopener">Ironsight Digital</a></span>
+    </div>
+  </footer>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE: SERVICES
+════════════════════════════════════════════ -->
+<div id="page-services" class="page">
+  <div class="svc-hero">
+    <div class="sec-label">Our Services</div>
+    <h2>Everything Your Roof Needs.</h2>
+    <p style="color:var(--gray);font-size:17px;max-width:560px;line-height:1.7;margin-top:12px">Every service we offer is backed by the same commitment: licensed crews, written quotes, and a warranty that means something.</p>
+  </div>
+  <div class="svc-full">
+    <div class="svc-full-grid">
+      <div class="svc-visual" aria-label="Residential roofing service visual"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9,22 9,12 15,12 15,22"/></svg><span style="font-size:13px;color:var(--gray)"><!-- CUSTOMIZE: Add real photo here --></span></div>
+      <div class="svc-detail">
+        <div class="sec-label">Residential</div>
+        <h3>Full Roof Replacement</h3>
+        <p>From the initial inspection to the final nail, we handle every step of your residential roof replacement. We carry GAF, Owens Corning, CertainTeed, and other top-tier shingle lines.</p>
+        <ul class="svc-bullets" aria-label="Service includes">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Free inspection and written estimate</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Full tear-off of existing material</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Decking inspection and repair</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Permitting handled start to finish</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Completed in one to two days</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Lifetime workmanship warranty</li>
+        </ul>
+        <button class="btn-primary" onclick="showPage('contact')">Get a Free Estimate</button>
+      </div>
+    </div>
+    <div class="svc-full-grid reverse">
+      <div class="svc-visual" aria-label="Storm damage service visual"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg><span style="font-size:13px;color:var(--gray)"><!-- CUSTOMIZE: Add real photo here --></span></div>
+      <div class="svc-detail">
+        <div class="sec-label">Insurance</div>
+        <h3>Storm Damage & Claims</h3>
+        <p>Hail and wind damage is our specialty. We inspect, photograph, and document everything — then we sit in the room with your adjuster so you don't have to fight alone.</p>
+        <ul class="svc-bullets">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Free storm damage inspection</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Insurance documentation and photo reports</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Adjuster meeting support</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Supplement negotiation</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Most clients pay only their deductible</li>
+        </ul>
+        <button class="btn-primary" onclick="showPage('contact')">Schedule an Inspection</button>
+      </div>
+    </div>
+    <div class="svc-full-grid">
+      <div class="svc-visual" aria-label="Commercial roofing service visual"><svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg><span style="font-size:13px;color:var(--gray)"><!-- CUSTOMIZE: Add real photo here --></span></div>
+      <div class="svc-detail">
+        <div class="sec-label">Commercial</div>
+        <h3>Commercial Roofing Systems</h3>
+        <p>Flat and low-slope commercial roofing for office buildings, retail, warehouses, and multi-unit properties. We minimize disruption and maximize system lifespan.</p>
+        <ul class="svc-bullets">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>TPO, EPDM, and modified bitumen systems</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Metal panel and standing seam</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Phased installation to minimize downtime</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Preventative maintenance programs</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg>Multi-property contracts available</li>
+        </ul>
+        <button class="btn-primary" onclick="showPage('contact')">Request a Commercial Quote</button>
+      </div>
+    </div>
+  </div>
+  <div class="cta-band">
+    <h2>Not Sure What You Need?</h2>
+    <p>Start with a free inspection. We'll tell you exactly what's going on up there — no sales pitch.</p>
+    <button class="btn-primary" onclick="showPage('contact')">Book a Free Inspection</button>
+  </div>
+  <footer role="contentinfo">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <span style="color:var(--gray);font-size:13px">© 2025 Ironclad Roofing</span>
+      <span class="built-by">Built by <a href="https://ironsight-digital.com" target="_blank" rel="noopener">Ironsight Digital</a></span>
+    </div>
+  </footer>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE: HOW IT WORKS
+════════════════════════════════════════════ -->
+<div id="page-hiw" class="page">
+  <div class="hiw-hero">
+    <div class="sec-label">Powered by Ironsight Digital</div>
+    <h2>Your Website Works<br/>While You Work.</h2>
+    <p class="hiw-intro">Most contractor websites are digital brochures. This one is a lead machine. The moment someone submits a form, a sequence fires automatically — instant text response, multi-day follow-up, and review requests — all without you lifting a finger.</p>
+  </div>
+
+  <!-- PIPELINE FLOW -->
+  <div class="pipeline" aria-labelledby="pipeline-h">
+    <div class="sec-label">The Automation Pipeline</div>
+    <h2 id="pipeline-h">What Happens the Second<br/>a Lead Comes In.</h2>
+    <div style="position:relative">
+      <div class="pipeline-connector" aria-hidden="true"></div>
+      <div class="pipeline-steps" role="list" aria-label="Lead automation steps">
+        <div class="pipeline-step rev" role="listitem">
+          <div class="step-circle active-step"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+          <h4>Lead Submits Form</h4>
+          <p>Prospect fills out the quote form on your site</p>
+        </div>
+        <div class="pipeline-step rev" role="listitem">
+          <div class="step-circle active-step"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div>
+          <h4>Instant SMS Fires</h4>
+          <p>Lead receives a text within seconds — you look like you're always on</p>
+        </div>
+        <div class="pipeline-step rev" role="listitem">
+          <div class="step-circle active-step"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></div>
+          <h4>CRM Auto-Populates</h4>
+          <p>HubSpot captures the lead — every field, every time, no manual entry</p>
+        </div>
+        <div class="pipeline-step rev" role="listitem">
+          <div class="step-circle active-step"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <h4>5-Day Follow-Up</h4>
+          <p>Automated SMS + email sequence keeps you top of mind if they don't book immediately</p>
+        </div>
+        <div class="pipeline-step rev" role="listitem">
+          <div class="step-circle active-step"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <h4>Review Request</h4>
+          <p>After the job, an automated text asks for a Google review — builds your rating on autopilot</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- LIVE SMS DEMO -->
+  <div class="demo-section" aria-labelledby="demo-h">
+    <div class="sec-label">Live Demo</div>
+    <h2 id="demo-h" style="margin-bottom:10px">Try It Yourself.</h2>
+    <p style="color:var(--gray);font-size:16px;max-width:540px;line-height:1.7;margin-bottom:40px">Fill out the form below as if you were a homeowner requesting a quote. Watch what happens on the phone to the right — this is exactly what your leads experience the moment they submit.</p>
+    <div class="demo-wrap">
+      <div class="demo-form-box">
+        <h3>Request a Free Inspection</h3>
+        <p>We respond within minutes — even after hours.</p>
+        <div class="form-row">
+          <div class="form-field"><label for="d-fname">First Name</label><input type="text" id="d-fname" placeholder="John"/></div>
+          <div class="form-field"><label for="d-lname">Last Name</label><input type="text" id="d-lname" placeholder="Smith"/></div>
+        </div>
+        <div class="form-row">
+          <div class="form-field"><label for="d-phone">Phone</label><input type="tel" id="d-phone" placeholder="(555) 000-0000"/></div>
+          <div class="form-field"><label for="d-service">Service Needed</label>
+            <select id="d-service">
+              <option value="" disabled selected>Select...</option>
+              <option>Roof Replacement</option>
+              <option>Storm Damage / Insurance</option>
+              <option>Roof Inspection</option>
+              <option>Repair</option>
+              <option>Commercial Roofing</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row" style="grid-template-columns:1fr">
+          <div class="form-field"><label for="d-msg">Anything else?</label><textarea id="d-msg" placeholder="Describe what's going on..."></textarea></div>
+        </div>
+        <button class="submit-btn" onclick="triggerSmsDemo()">Send My Request</button>
+        <p style="font-size:12px;color:var(--gray);margin-top:10px;text-align:center">This is a live demonstration. No real SMS will be sent.</p>
+      </div>
+      <div class="phone-box">
+        <div class="phone-frame" role="img" aria-label="Simulated phone showing SMS response">
+          <div class="phone-notch" aria-hidden="true"></div>
+          <div class="phone-screen">
+            <div class="phone-status"><span class="phone-time" id="phone-time">9:41 AM</span><span class="phone-icons">●●● WiFi</span></div>
+            <div class="sms-header">
+              <div class="sms-avatar" aria-hidden="true">IR</div>
+              <div><div class="sms-contact">Ironclad Roofing</div><div class="sms-sub">Business Text</div></div>
+            </div>
+            <div class="sms-messages" id="sms-thread" aria-live="polite" aria-label="SMS conversation thread">
+              <div class="sms-time">Submit the form to see the automation fire</div>
+            </div>
+            <div class="sms-typing" id="sms-typing" aria-label="Ironclad Roofing is typing">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="demo-label">Simulated SMS — fires in real time after form submit</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AUTOMATION TIMELINE -->
+  <div class="auto-timeline" aria-labelledby="tl-h">
+    <div class="sec-label">Follow-Up Sequence</div>
+    <h2 id="tl-h" style="margin-bottom:10px">What Happens Next.<br/>All Automatic.</h2>
+    <p style="color:var(--gray);font-size:16px;max-width:540px;line-height:1.7;margin-bottom:0">After that first text fires, the system keeps working. Here's the full 5-day sequence that runs without you touching anything.</p>
+    <div class="timeline-items" role="list" aria-label="Automation timeline">
+      <div class="tl-item rev" role="listitem">
+        <div class="tl-left"><div class="tl-circle fired"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="tl-line"></div></div>
+        <div class="tl-right"><div class="tl-time">Instant — 0 min</div><h4>Instant SMS Response</h4><p>"Hi [Name], this is Ironclad Roofing — we just got your inspection request. We'll have someone reach out within the hour to confirm. Thanks for trusting us with your home."</p></div>
+      </div>
+      <div class="tl-item rev" role="listitem">
+        <div class="tl-left"><div class="tl-circle fired"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div class="tl-line"></div></div>
+        <div class="tl-right"><div class="tl-time">Day 1 — 2 hours later</div><h4>Email Confirmation</h4><p>Branded confirmation email with your logo, what to expect, and a direct link to book a specific time — syncs with your calendar automatically.</p></div>
+      </div>
+      <div class="tl-item rev" role="listitem">
+        <div class="tl-left"><div class="tl-circle fired"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="tl-line"></div></div>
+        <div class="tl-right"><div class="tl-time">Day 2</div><h4>Follow-Up Text</h4><p>"Hey [Name] — still want to get eyes on that roof? We have openings this week. Takes 30 minutes, completely free, no obligation."</p></div>
+      </div>
+      <div class="tl-item rev" role="listitem">
+        <div class="tl-left"><div class="tl-circle fired"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="tl-line"></div></div>
+        <div class="tl-right"><div class="tl-time">Day 4</div><h4>Value Text</h4><p>"Did you know most storm damage isn't visible from the ground? A 30-minute inspection could uncover damage your insurance will cover. Free, no commitment."</p></div>
+      </div>
+      <div class="tl-item rev" role="listitem">
+        <div class="tl-left"><div class="tl-circle fired"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div><div class="tl-line"></div></div>
+        <div class="tl-right"><div class="tl-time">After Job Completed</div><h4>Review Request</h4><p>"[Name], thanks for choosing Ironclad — it was great working with you. If we did a good job, a quick Google review means the world to a local business. [Direct link]"</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-band">
+    <div class="sec-label" style="text-align:center">Ready to See It on Your Business?</div>
+    <h2>Let's Build Your Pipeline.</h2>
+    <p>This isn't a template. It's a system. And it's ready to run under your brand.</p>
+    <div class="btn-row" style="justify-content:center">
+      <button class="btn-primary" onclick="showPage('contact')">Talk to Ironsight Digital</button>
+    </div>
+  </div>
+  <footer role="contentinfo">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <span style="color:var(--gray);font-size:13px">© 2025 Ironclad Roofing</span>
+      <span class="built-by">Built by <a href="https://ironsight-digital.com" target="_blank" rel="noopener">Ironsight Digital</a></span>
+    </div>
+  </footer>
+</div>
+
+<!-- ════════════════════════════════════════════
+     PAGE: CONTACT
+════════════════════════════════════════════ -->
+<div id="page-contact" class="page">
+  <div class="contact-hero">
+    <div class="sec-label">Free Inspection</div>
+    <h2>Let's Talk About<br/>Your Roof.</h2>
+    <p style="color:var(--gray);font-size:17px;max-width:520px;line-height:1.7;margin-top:12px">No pressure, no commitment. Fill out the form and we'll be in touch within the hour. Or call us directly — a real person answers.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Reach Us Directly.</h3>
+      <p>We're a local operation. When you call, you reach someone who knows your project. No call centers, no runaround.</p>
+      <div class="contact-items">
+        <!-- CUSTOMIZE: Update all contact details -->
+        <div class="contact-item">
+          <div class="c-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" color="var(--steel-light)"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.13 1 .37 1.97.72 2.91a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.94.35 1.91.59 2.91.72A2 2 0 0122 16.92z"/></svg></div>
+          <div><div class="c-label">Phone</div><div class="c-val">(555) 000-1234</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" color="var(--steel-light)"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="c-label">Email</div><div class="c-val">info@ironcladroofing.com</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" color="var(--steel-light)"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div><div class="c-label">Hours</div><div class="c-val">Mon–Fri 7am–6pm &nbsp;·&nbsp; Sat 8am–2pm</div></div>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" color="var(--steel-light)"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="c-label">Service Area</div><div class="c-val">Your Metro Area & Surrounding Region</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-form-box">
+      <h3>Request a Free Inspection</h3>
+      <p>We follow up within the hour. No spam, no pressure.</p>
+      <!-- CUSTOMIZE: Connect to form handler (Formspree, webhook, CRM) -->
+      <!-- UTM CAPTURE — uncomment to track ad source:
+      <input type="hidden" id="utm_source" name="utm_source"/>
+      <input type="hidden" id="utm_medium" name="utm_medium"/>
+      <input type="hidden" id="utm_campaign" name="utm_campaign"/>
+      -->
+      <div class="form-row">
+        <div class="form-field"><label for="c-fname">First Name</label><input type="text" id="c-fname" autocomplete="given-name" placeholder="John"/></div>
+        <div class="form-field"><label for="c-lname">Last Name</label><input type="text" id="c-lname" autocomplete="family-name" placeholder="Smith"/></div>
+      </div>
+      <div class="form-row">
+        <div class="form-field"><label for="c-phone">Phone</label><input type="tel" id="c-phone" autocomplete="tel" placeholder="(555) 000-0000"/></div>
+        <div class="form-field"><label for="c-email">Email</label><input type="email" id="c-email" autocomplete="email" placeholder="john@email.com"/></div>
+      </div>
+      <div class="form-row" style="grid-template-columns:1fr;margin-bottom:14px">
+        <div class="form-field"><label for="c-service">What Do You Need?</label>
+          <select id="c-service">
+            <option value="" disabled selected>Select a service...</option>
+            <option>Roof Replacement</option>
+            <option>Storm Damage / Insurance Claim</option>
+            <option>Free Roof Inspection</option>
+            <option>Roof Repair</option>
+            <option>Commercial Roofing</option>
+            <option>Gutters</option>
+            <option>Not Sure — Just Need Someone to Look</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row" style="grid-template-columns:1fr;margin-bottom:20px">
+        <div class="form-field"><label for="c-msg">Tell Us More</label><textarea id="c-msg" placeholder="Describe what's going on — age of roof, visible damage, leaks, etc."></textarea></div>
+      </div>
+      <button class="submit-btn" onclick="handleContactSubmit()">Request My Free Inspection</button>
+      <p style="font-size:12px;color:var(--gray);margin-top:10px;text-align:center">No spam. We'll call or text within 1 hour during business hours.</p>
+    </div>
+  </div>
+  <footer role="contentinfo">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <span style="color:var(--gray);font-size:13px">© 2025 Ironclad Roofing</span>
+      <span class="built-by">Built by <a href="https://ironsight-digital.com" target="_blank" rel="noopener">Ironsight Digital</a></span>
+    </div>
+  </footer>
+</div>
+
+<!-- ── MOBILE STICKY CTA ── -->
+<div class="mob-cta" role="complementary" aria-label="Quick contact">
+  <a href="tel:5550001234" class="mob-call">Call Now</a>
+  <a class="mob-quote" onclick="showPage('contact')">Free Inspection</a>
+</div>
+
+<!-- GTM noscript — CUSTOMIZE: Replace GTM-XXXXXX -->
+<!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXX" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+
+<script>
+// ── PAGE ROUTING ──
+function showPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+  initReveal();
+}
+
+// ── SCROLL REVEAL ──
+function initReveal(){
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('vis');obs.unobserve(e.target);}});
+  },{threshold:0.1});
+  document.querySelectorAll('.rev:not(.vis)').forEach(el=>obs.observe(el));
+}
+initReveal();
+
+// ── STAT COUNTERS ──
+const statObs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    const el=e.target,target=parseFloat(el.dataset.target),suffix=el.dataset.suffix||'',dec=parseInt(el.dataset.dec||0),dur=1800,start=performance.now();
+    const run=now=>{
+      const p=Math.min((now-start)/dur,1),ease=1-Math.pow(1-p,3),val=target*ease;
+      el.textContent=(dec?val.toFixed(dec):Math.floor(val).toLocaleString())+suffix;
+      if(p<1)requestAnimationFrame(run);
+    };
+    requestAnimationFrame(run);
+    statObs.unobserve(el);
+  });
+},{threshold:0.5});
+document.querySelectorAll('[data-target]').forEach(el=>statObs.observe(el));
+
+// ── PHONE CLOCK ──
+function updateClock(){
+  const now=new Date(),h=now.getHours()%12||12,m=String(now.getMinutes()).padStart(2,'0'),ampm=now.getHours()>=12?'PM':'AM';
+  const el=document.getElementById('phone-time');
+  if(el)el.textContent=h+':'+m+' '+ampm;
+}
+updateClock();setInterval(updateClock,30000);
+
+// ── FAQ ──
+function toggleFaq(btn){
+  const ans=btn.nextElementSibling,isOpen=ans.classList.contains('open');
+  document.querySelectorAll('.faq-a.open').forEach(a=>{a.classList.remove('open');a.previousElementSibling.classList.remove('open');a.previousElementSibling.setAttribute('aria-expanded','false');});
+  if(!isOpen){ans.classList.add('open');btn.classList.add('open');btn.setAttribute('aria-expanded','true');}
+}
+
+// ── SMS DEMO ──
+function triggerSmsDemo(){
+  const name=document.getElementById('d-fname').value.trim()||'there';
+  const service=document.getElementById('d-service').value||'roofing inspection';
+  const thread=document.getElementById('sms-thread');
+  const typing=document.getElementById('sms-typing');
+
+  thread.innerHTML='';
+
+  // Lead's outbound message
+  const out=document.createElement('div');
+  out.className='sms-msg sms-out';
+  out.textContent='Hi, I need a '+service+'. Can someone come take a look?';
+  thread.appendChild(out);
+
+  // Typing indicator
+  typing.style.display='flex';
+
+  setTimeout(()=>{
+    typing.style.display='none';
+    const t=document.createElement('div');t.className='sms-time';
+    const now=new Date(),h=now.getHours()%12||12,m=String(now.getMinutes()).padStart(2,'0'),ampm=now.getHours()>=12?'PM':'AM';
+    t.textContent='Delivered '+h+':'+m+' '+ampm+' — Instant';
+    thread.appendChild(t);
+    const msg1=document.createElement('div');
+    msg1.className='sms-msg sms-in';
+    msg1.textContent='Hi '+name+'! This is Ironclad Roofing — we just got your request for a '+service+'. We\'ll have someone reach out within the hour to confirm. Thanks for trusting us with your home.';
+    thread.appendChild(msg1);
+    thread.scrollTop=thread.scrollHeight;
+
+    setTimeout(()=>{
+      typing.style.display='flex';
+      setTimeout(()=>{
+        typing.style.display='none';
+        const msg2=document.createElement('div');
+        msg2.className='sms-msg sms-in';
+        msg2.textContent='In the meantime — here\'s a quick look at what to expect from your free inspection: ironcladroofing.com/services';
+        thread.appendChild(msg2);
+        thread.scrollTop=thread.scrollHeight;
+      },1800);
+    },2500);
+  },1600);
+}
+
+// ── CONTACT FORM ──
+function handleContactSubmit(){
+  const fname=document.getElementById('c-fname').value;
+  const phone=document.getElementById('c-phone').value;
+  if(!fname||!phone){alert('Please enter your name and phone number.');return;}
+  // CUSTOMIZE: Replace with Formspree, webhook, or CRM POST
+  // fetch('https://formspree.io/f/YOUR_ID',{method:'POST',body:new FormData(...)})
+  alert('Got it, '+fname+'. We\'ll be in touch within the hour.');
+}
+</script>
+</body>
+</html>
