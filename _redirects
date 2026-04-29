@@ -13,3 +13,4 @@
 
 # Redirect www to non-www  — update domain before going live
 https://www.ironcladroofing.com/*   https://ironcladroofing.com/:splat   301!
+
