@@ -1,0 +1,15 @@
+# Clean URL redirects
+/services          /services.html          301
+/how-it-works      /how-it-works.html      301
+/contact           /contact.html           301
+
+# Common misspellings / alternate slugs
+/how-it-works/     /how-it-works.html      301
+/services/         /services.html          301
+/contact/          /contact.html           301
+/inspection        /contact.html           301
+/free-inspection   /contact.html           301
+/quote             /contact.html           301
+
+# Redirect www to non-www  — update domain before going live
+https://www.ironcladroofing.com/*   https://ironcladroofing.com/:splat   301!
