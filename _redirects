@@ -10,7 +10,3 @@
 /inspection        /contact.html           301
 /free-inspection   /contact.html           301
 /quote             /contact.html           301
-
-# Redirect www to non-www  — update domain before going live
-https://www.ironcladroofing.com/*   /:splat   301!
-
