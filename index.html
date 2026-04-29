@@ -4,36 +4,173 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <!-- CUSTOMIZE: SEO — Uncomment the block below before going live.
-       Update title, description, canonical URL, OG image, and structured data. -->
+  <!-- DEMO GUARD — remove this line before going live -->
+  <meta name="robots" content="noindex,nofollow" />
+
   <title>Ironclad Roofing | Residential &amp; Commercial Roofing</title>
-  <!--
-  <meta name="description"
-    content="Ironclad Roofing delivers premium residential and commercial roofing. Storm damage experts. Licensed, insured, and backed by a lifetime workmanship warranty. Get a free inspection today." />
+
+  <!-- CUSTOMIZE: SEO meta + social — uncomment and update all values before going live
+
+  Core meta
+  <meta name="description" content="Ironclad Roofing delivers premium residential and commercial roofing. Storm damage experts. Licensed, insured, and backed by a lifetime workmanship warranty. Get a free inspection today." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://ironcladroofing.com/" />
+
+  Favicon — generate all sizes at realfavicongenerator.net, place in assets/favicon/
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="theme-color" content="#0f1923" />
+
+  Open Graph — create a 1200x630 JPG and save as assets/og-image.jpg
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Ironclad Roofing" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:title" content="Ironclad Roofing | Built to Last" />
-  <meta property="og:description"
-    content="Premium roofing. Storm damage experts. Free inspections. Licensed &amp; insured." />
+  <meta property="og:description" content="Premium roofing. Storm damage experts. Free inspections. Licensed &amp; insured." />
   <meta property="og:url" content="https://ironcladroofing.com/" />
-  <meta property="og:image" content="https://ironcladroofing.com/og-image.jpg" />
+  <meta property="og:image" content="https://ironcladroofing.com/assets/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Ironclad Roofing — Licensed &amp; Insured Roofing Contractor" />
+
+  Twitter / X Card
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ironclad Roofing | Built to Last" />
   <meta name="twitter:description" content="Premium roofing. Storm damage experts. Free inspections." />
+  <meta name="twitter:image" content="https://ironcladroofing.com/assets/og-image.jpg" />
   -->
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- CUSTOMIZE: Structured data — Uncomment and update before going live.
-       Update name, url, telephone, address, rating count, and hours. -->
-  <!--
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"RoofingContractor","name":"Ironclad Roofing","url":"https://ironcladroofing.com","telephone":"+15550001234","priceRange":"$$","description":"Premium residential and commercial roofing. Storm damage specialists. Licensed, insured, and backed by a lifetime workmanship warranty.","address":{"@type":"PostalAddress","addressCountry":"US"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"284"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"07:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"14:00"}]}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How do I know if my roof needs to be replaced or just repaired?","acceptedAnswer":{"@type":"Answer","text":"We inspect for shingle age, granule loss, flashing failures, decking damage, and interior leaks. Most roofs over 15 years old showing multiple issues are better candidates for replacement than repeated repairs."}},{"@type":"Question","name":"Does my insurance cover storm damage?","acceptedAnswer":{"@type":"Answer","text":"Most homeowner policies cover wind and hail damage. We work directly with insurance adjusters and help you navigate the claims process from inspection to final payout."}},{"@type":"Question","name":"How long does a full roof replacement take?","acceptedAnswer":{"@type":"Answer","text":"Most residential replacements are completed in one to two days. We handle permitting, tear-off, installation, and cleanup."}},{"@type":"Question","name":"What warranty do you offer?","acceptedAnswer":{"@type":"Answer","text":"We back every installation with a lifetime workmanship warranty plus the manufacturer material warranty — typically 30 to 50 years depending on the shingle line selected."}}]}</script>
+
+  <!-- CUSTOMIZE: Structured data — uncomment and update all values before going live
+
+  RoofingContractor (LocalBusiness) — primary entity for local SEO
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "name": "Ironclad Roofing",
+    "url": "https://ironcladroofing.com",
+    "logo": "https://ironcladroofing.com/assets/logo.png",
+    "image": "https://ironcladroofing.com/assets/og-image.jpg",
+    "telephone": "+15550001234",
+    "email": "info@ironcladroofing.com",
+    "priceRange": "$$",
+    "description": "Premium residential and commercial roofing. Storm damage specialists. Licensed, insured, and backed by a lifetime workmanship warranty.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "123 Main St",
+      "addressLocality": "Your City",
+      "addressRegion": "ST",
+      "postalCode": "00000",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "00.000000",
+      "longitude": "-00.000000"
+    },
+    "areaServed": {
+      "@type": "GeoCircle",
+      "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "00.000000",
+        "longitude": "-00.000000"
+      },
+      "geoRadius": "80000"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "284",
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "14:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.facebook.com/yourbusiness",
+      "https://www.instagram.com/yourbusiness",
+      "https://maps.google.com/?cid=XXXXXXXXXX",
+      "https://www.yelp.com/biz/your-business",
+      "https://www.bbb.org/us/state/city/your-business"
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Roofing Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Residential Roof Replacement"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Storm Damage & Insurance Claims"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Commercial Roofing"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Roof Inspections"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency Roof Repairs"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Gutters & Protection"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ventilation & Insulation"}}
+      ]
+    }
+  }
+  </script>
+
+  FAQPage — powers rich FAQ snippets in Google search results
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How do I know if my roof needs to be replaced or just repaired?",
+        "acceptedAnswer": {"@type": "Answer", "text": "We inspect for shingle age, granule loss, flashing failures, decking damage, and interior leaks. Most roofs over 15 years old showing multiple issues are better candidates for replacement than repeated repairs."}
+      },
+      {
+        "@type": "Question",
+        "name": "Does my insurance cover storm damage?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most homeowner policies cover wind and hail damage. We work directly with insurance adjusters and help you navigate the claims process from inspection to final payout."}
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a full roof replacement take?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most residential replacements are completed in one to two days. We handle permitting, tear-off, installation, and cleanup."}
+      },
+      {
+        "@type": "Question",
+        "name": "What warranty do you offer?",
+        "acceptedAnswer": {"@type": "Answer", "text": "We back every installation with a lifetime workmanship warranty plus the manufacturer material warranty — typically 30 to 50 years depending on the shingle line selected."}
+      }
+    ]
+  }
+  </script>
+
+  WebSite
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Ironclad Roofing",
+    "url": "https://ironcladroofing.com"
+  }
+  </script>
   -->
-  <!-- CUSTOMIZE: Replace GTM-XXXXXX -->
+
+  <!-- CUSTOMIZE: Replace GTM-XXXXXX with your container ID -->
   <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-XXXXXX');</script> -->
 </head>
 

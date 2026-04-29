@@ -1,0 +1,6 @@
+name = "demo-site"
+compatibility_date = "2026-04-29"
+
+# No framework, no build step — all files are served from the project root.
+# Deploy with: wrangler pages deploy .
+pages_build_output_dir = "."
